@@ -1,0 +1,51 @@
+#container{
+    height: 100px;
+    width: 400px;
+    border: 5px solid black;
+}
+.container{
+   
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color:black;
+    height: 50%;
+    width: 100%;
+}
+.header input{
+    height: 50px;
+    width: 300px;
+  
+}
+.container> h1{
+    color :#fff; 
+}
+
+.header button{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+.tasks{
+    border: 2px solid rgb(11, 12, 11);
+    height: 50%;
+    width: 100%;
+    background-color: rgb(84, 192, 147);
+}
+.example-1, .example-2{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+}
+.filters{
+    display: flex;
+    justify-content: space-around;
+    
+}.filters b{
+    cursor: pointer;
+}
